@@ -10,8 +10,6 @@
 
 <script>
 export default {
-  name: "category-course",
-
   props: {
     course: {
       type: Object,

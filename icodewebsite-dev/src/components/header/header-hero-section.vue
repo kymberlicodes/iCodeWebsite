@@ -7,12 +7,12 @@
           Get kids off their phones and into one of our fun STEM education and
           coding classes for kids!
         </p>
-        <button class="btn btn-primary" href="location.html">
+        <button class="btn btn-primary" href="#">
           Find a Location
         </button>
       </div>
       <div class="header-right">
-        <img src="@/assets/hero-image.png" />
+        <img src="@/assets/hero-image.png" alt="Programmer writes code on his laptop." />
       </div>
     </div>
   </header>

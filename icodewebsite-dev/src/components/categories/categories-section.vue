@@ -7,7 +7,7 @@
           Whether it's summer, spring break, or just a school holiday, we've got
           a camp for that!
         </p>
-        <a href="#" class="btn">Request Info</a>
+        <a href="#" class="btn btn-primary">Request Info</a>
       </div>
       <div class="container categories-right">
         <category-course
@@ -87,13 +87,17 @@ export default {
     margin-bottom: 3rem;
   }
 
+  .container {
+    width: 75%;
+  }
+
   .categories-container {
     display: grid;
     grid-template-columns: 40% 60%;
   }
 
   .categories-left {
-    margin-right: 4rem;
+    margin-right: 0rem;
   }
 
   .categories-left p {
@@ -104,6 +108,13 @@ export default {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.2rem;
+  }
+
+  .btn-primary {
+    background-color: #00bf8e;
+    &:hover {
+      background-color: transparent;
+    }
   }
 }
 </style>

@@ -5,11 +5,11 @@
         <div class="logo-container"></div>
       </a>
       <ul class="nav-menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="programs.html">Programs</a></li>
-        <li><a href="locations.html">Locations</a></li>
-        <li><a href="courses.html">Contact</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Programs</a></li>
+        <li><a href="#">Locations</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
       <nav-open-button class="nav-btn" />
       <nav-close-button class="nav-btn" />
